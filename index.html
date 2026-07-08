@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rubasree K S — Frontend Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-orb orb-1"></div>
+<div class="bg-orb orb-2"></div>
+<div class="bg-orb orb-3"></div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <a href="#home" class="logo">RKS<span>.dev</span></a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="nav-links" id="navLinks">
+    <a href="#home" class="active">home</a>
+    <a href="#about">about</a>
+    <a href="#education">education</a>
+    <a href="#skills">skills</a>
+    <a href="#projects">projects</a>
+    <a href="#contact">contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <p class="eyebrow">// hello world</p>
+    <h1>Rubasree K S</h1>
+    <h2 class="gradient-text">Frontend Developer</h2>
+    <p class="hero-sub">Final-year B.Sc IT student and Full Stack Developer Intern, building clean, responsive interfaces where good code meets good design.</p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-outline">Get in Touch</a>
+    </div>
+  </div>
+
+  <div class="editor-window" aria-hidden="true">
+    <div class="editor-titlebar">
+      <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+      <span class="editor-filename">rubasree.js</span>
+    </div>
+    <pre class="editor-body"><code><span class="tok-kw">const</span> <span class="tok-var">developer</span> <span class="tok-op">=</span> {
+  <span class="tok-key">name</span>: <span class="tok-str">"Rubasree K S"</span>,
+  <span class="tok-key">role</span>: <span class="tok-str">"Frontend Developer"</span>,
+  <span class="tok-key">stack</span>: [<span class="tok-str">"HTML"</span>, <span class="tok-str">"CSS"</span>, <span class="tok-str">"JavaScript"</span>],
+  <span class="tok-key">loves</span>: <span class="tok-str">"clean UI & smooth UX"</span>,
+  <span class="tok-key">available</span>: <span class="tok-bool">true</span>
+};<span class="cursor">&#9608;</span></code></pre>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <p class="section-label">01 — about</p>
+  <h2 class="section-title">A little about me</h2>
+  <div class="about-grid">
+    <div class="about-photo">
+      <div class="photo-frame">RKS</div>
+    </div>
+    <div class="about-content">
+      <p>I'm a motivated final-year B.Sc Information Technology student at KPR College of Arts Science and Research, currently working as a Full Stack Developer Intern at App Innovation Technologies Pvt Ltd (since June 2022). I enjoy turning designs into fast, responsive, and accessible websites, and I'm always looking to grow my skills through real projects.</p>
+      <p>Through my internship I've learned the fundamentals of web development with HTML and CSS, built responsive pages with forms, tables, and media, and worked with internal, external, and inline styling — while sharpening my communication, adaptability, and teamwork along the way.</p>
+      <div class="about-stats">
+        <div class="stat"><span class="stat-num">Intern</span><span class="stat-label">Full Stack Developer</span></div>
+        <div class="stat"><span class="stat-num">7.6</span><span class="stat-label">CGPA</span></div>
+        <div class="stat"><span class="stat-num">4+</span><span class="stat-label">Core Web Skills</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="section">
+  <p class="section-label">02 — education</p>
+  <h2 class="section-title">My learning path</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <span class="timeline-year">2024 — 2027</span>
+        <h3>B.Sc Information Technology</h3>
+        <p>KPR College of Arts Science and Research — CGPA: 7.6 (Final year)</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <span class="timeline-year">2023 — 2024</span>
+        <h3>Higher Secondary Education</h3>
+        <p>KRP Matric Higher Secondary School — Percentage: 71%</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <span class="timeline-year">2021 — 2022</span>
+        <h3>Secondary Education</h3>
+        <p>AVS Girls Matric Higher School — Percentage: 60%</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <p class="section-label">03 — skills</p>
+  <h2 class="section-title">What I work with</h2>
+  <div class="skills-grid">
+    <div class="skill-card"><span class="skill-name">HTML</span><div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div></div>
+    <div class="skill-card"><span class="skill-name">CSS</span><div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div></div>
+    <div class="skill-card"><span class="skill-name">JavaScript</span><div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div></div>
+    <div class="skill-card"><span class="skill-name">React</span><div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div></div>
+    <div class="skill-card"><span class="skill-name">MS Office</span><div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div></div>
+    <div class="skill-card"><span class="skill-name">Web Page Design</span><div class="skill-bar"><div class="skill-fill" style="width:78%"></div></div></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <p class="section-label">04 — projects</p>
+  <h2 class="section-title">Things I've built</h2>
+  <div class="projects-grid">
+    <article class="project-card">
+      <div class="project-top gradient-1"></div>
+      <div class="project-body">
+        <h3>AI-Powered Customer Support Chatbot</h3>
+        <p>A chatbot that helps answer customer queries automatically, reducing response time and improving the support experience.</p>
+        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        <div class="project-links">
+          <a href="#">Live Demo</a><a href="#">Code</a>
+        </div>
+      </div>
+    </article>
+    <article class="project-card project-soon">
+      <div class="project-top gradient-2"></div>
+      <div class="project-body">
+        <h3>More on the way</h3>
+        <p>Currently building new projects with React and JavaScript — check back soon.</p>
+        <div class="tags"><span>React</span><span>JS</span></div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact-section">
+  <p class="section-label">05 — contact</p>
+  <h2 class="section-title">Let's build something together</h2>
+  <p class="contact-sub">Based in Bhavani, Erode. Have a project in mind or just want to say hi? My inbox is open.</p>
+  <div class="contact-wrap">
+    <form class="contact-form" id="contactForm">
+      <input type="text" placeholder="Your name" required>
+      <input type="email" placeholder="Your email" required>
+      <textarea rows="4" placeholder="Your message" required></textarea>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+    <div class="socials">
+      <a href="mailto:ruba21372@gmail.com" class="social-link">Email</a>
+      <a href="tel:+917871911201" class="social-link">Call</a>
+      <a href="https://www.linkedin.com/in/ruba-sree" target="_blank" class="social-link">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>Designed &amp; built by Rubasree K S · <span id="year"></span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
